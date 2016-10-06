@@ -12,7 +12,15 @@ app.get('/', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-
+app.get("artice-1",function(req,res){
+res.sendFile("This is my first url path");
+});
+app.get("artice-2",function(req,res){
+res.sendFile("This is my second url path");
+});
+app.get("artice-3",function(req,res){
+res.sendFile("This is my third url path");
+});
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
