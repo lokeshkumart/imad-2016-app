@@ -12,13 +12,13 @@ app.get('/', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-app.get('/artice-one',function(req,res){
+app.get('/article-one',function(req,res){
 res.sendFile('This is my first url path');
 });
-app.get('/artice-two',function(req,res){
+app.get('/article-two',function(req,res){
 res.sendFile('This is my second url path');
 });
-app.get('/artice-three',function(req,res){
+app.get('/article-three',function(req,res){
 res.sendFile('This is my third url path');
 });
 app.get('/ui/madi.png', function (req, res) {
