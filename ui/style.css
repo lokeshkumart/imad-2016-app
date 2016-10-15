@@ -19,4 +19,14 @@ body {
 .img-medium {
     height: 200px;
 }
+.container{
+color:green;
+margin: 0 auto;
+max-width: 800px;
+font-family:algerian;
+font-size:30px;
+padding-top:90px;
+padding-left:100px;
+
+}
 
